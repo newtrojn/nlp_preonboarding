@@ -1,6 +1,7 @@
-#원티드 프리온보딩 AI/ML 코스 지원을 위해 작성되었음
-##Tokenizer(문제1)와 TfidfVectorizer(문제2) 클래스 완성
-###문제 1) Tokenizer 생성
+원티드 프리온보딩 AI/ML 코스 지원을 위해 작성되었음
+
+Tokenizer(문제1)와 TfidfVectorizer(문제2) 클래스 완성
+문제 1) Tokenizer 생성
 
 1-1. preprocessing()
 텍스트 전처리 함수.
@@ -22,7 +23,7 @@ input: 여러 영어 문장이 포함된 list. ex) ['I go to school.', 'I LIKE p
 output: 각 문장의 정수 인덱싱으로, nested list 형태 ex) [[1, 2, 3, 4], [1, 5, 6]]
 조건 1: 어휘 사전(`self.word_dict`)에 없는 단어는 'oov'의 index로 변환
 
-###문제 2)TfidfVectorizer 생성하기
+문제 2)TfidfVectorizer 생성하기
 
 2-1. fit()
 입력 문장들을 이용해 IDF 행렬을 만드는 함수
